@@ -1,0 +1,41 @@
+.main{
+    display: flex;
+    width: 100%;
+}
+#products,#cart{
+    border:1px solid;
+}
+
+#products{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#products div {
+    width: 25%;
+    border: 1px solid black;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+#products div img{
+    width: 100%;
+}
+#products div button{
+    background-color: rgb(142, 191, 237);
+}
+
+#cart{
+    width: 50%;
+    padding: 20px;
+}
+
+#cart div {
+    border: 1px solid black;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
